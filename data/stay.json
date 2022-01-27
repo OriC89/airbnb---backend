@@ -1,0 +1,453 @@
+[
+    {
+        "_id": "10006546",
+        "name": "Brekka Retreat - New cozy cottage",
+        "type": "Cottage",
+        "typeOfPlace": "Entire place",
+        "avgRate": 4.93,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/850dc8db-f9cd-46e5-8ac8-3d2fafc5024f.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/268b4a9d-42b5-46e1-89b3-163e4be1883d.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/f8611663-8ab2-4a75-8324-61fb18688397.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/35f6ff72-b214-45b8-beba-4ef9f9cc95e4.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/015b45dc-74a1-40d4-8342-d03064706094.jpg?im_w=1440"
+        ],
+        "price": 80.0,
+        "summary": "A new cabin built in 2019 located in Hvalfjörður, around 50 min. from Reykjavík - The perfect spot to enjoy the nature, beautiful northern lights and amazing view, still close to the city and all major attractions in south-west Iceland.This small, quiet, beautiful and cozy house will amaze you with a modern look but warm and cozy at the same time.",
+        "capacity": 4,
+        "facilites": {
+            "beds": 2,
+            "bedrooms": 1,
+            "bathrooms": 1
+        },
+        "accessibility": {
+            "stepFreeEntrance": true,
+            "accessibleParkingSpot": true,
+            "wideDoorsEntrances": true,
+            "grabBars": false
+        },
+        "amenities": [
+            "Dryer",
+            "Wifi",
+            "Heating",
+            "Kitchen",
+            "Stove",
+            "Oven",
+            "Free parking",
+            "TV",
+            "HotTub",
+            "Hair dryer"
+        ],
+        "host": {
+            "_id": "51399391",
+            "fullname": "Elka Viketaj",
+            "imgUrl": "https://randomuser.me/api/portraits/women/19.jpg"
+        },
+        "loc": {
+            "country": "Iceland",
+            "city": "Akranes",
+            "countryCode": "IS",
+            "address": "Akranes, Iceland",
+            "lat": 64.403349,
+            "lng": -21.501815
+        },
+        "reviews": [
+            {
+                "id": "r102",
+                "txt": "It is all about location, isolated beatifull place - very romantic",
+                "rate": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Nayah Hest",
+                    "imgUrl": "https://randomuser.me/api/portraits/women/32.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "10006556",
+        "name": "The Peak Towers Sea View 1 Bedroom High Floor",
+        "type": "Apartment",
+        "typeOfPlace": "Entire place",
+        "avgRate": 4.87,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/4f468c51-9b05-4098-92a6-8b8d1e698973.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/0133315a-9adb-4f75-8676-1f70040421cd.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/dc3b21f9-5856-413c-90f2-5d8363ba19f7.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/4665b302-14c9-432d-803c-b2a39b084f8f.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/8b3a5464-30b6-4ffa-8683-c2024292280b.jpg?im_w=1440"
+        ],
+        "price": 23.0,
+        "summary": "This property is 300 meters walk from the beach. Situated 1 km from Pattaya - Hua Hin Ferry in Pattaya South, this apartment features a balcony with amazing view and a garden with an outdoor pool. The apartment is 1.5 km from Walking Street Pattaya. Free WiFi is featured throughout the property.",
+        "capacity": 3,
+        "facilites": {
+            "beds": 1,
+            "bedrooms": 1,
+            "bathrooms": 1
+        },
+        "accessibility": {
+            "stepFreeEntrance": false,
+            "accessibleParkingSpot": false,
+            "wideDoorsEntrances": false,
+            "grabBars": false
+        },
+        "amenities": [
+            "Refrigerator",
+            "Microwave",
+            "Hangers",
+            "Heating",
+            "Kitchen",
+            "Wifi",
+            "Dryer",
+            "Free parking",
+            "TV"
+        ],
+        "host": {
+            "_id": "51399392",
+            "fullname": "Alexandre Vincent Pierre",
+            "imgUrl": "https://randomuser.me/api/portraits/women/79.jpg"
+        },
+        "loc": {
+            "country": "Thailand",
+            "city": "Pattaya",
+            "countryCode": "TH",
+            "address": "Muang Pattaya, Chang Wat Chon Buri, Thailand",
+            "lat": 12.917712,
+            "lng": 100.860391
+        },
+        "reviews": [
+            {
+                "id": "r101",
+                "txt": "Great location, missing few things from the list, but overall great experience",
+                "rate": 4,
+                "by": {
+                    "_id": "u101",
+                    "fullname": "George Kopytov",
+                    "imgUrl": "https://randomuser.me/api/portraits/men/51.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "10006666",
+        "name": "Sleeping in a unique ship in the center of A'dam!",
+        "type": "Boat",
+        "typeOfPlace": "Entire place",
+        "avgRate": 4.93,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/98386fd4-6629-49d1-8b03-36c387c6e70b.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/c8f6b3eb-5fc7-4adb-bf9b-1138f64f0d66.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/28ba953b-6271-4322-b55f-6a1c5d4b95ce.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-802052/original/26a97f95-028e-4248-9cdc-c1f04f89fb4f.jpeg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/71f014d7-d1e6-46ab-abf7-e373147e97e2.jpg?im_w=1440"
+        ],
+        "price": 63.0,
+        "summary": "At this moment I offer the b & b with a high last-minute discount. The normal price is 135 euros per night. So grab your chance and the discount!. Thank you for finding me. I offer you an unique recently rebuild place in the centre of Amsterdam. Your cosy apartment has a private entrance so there is no customer contact. Although the Keizerinn BnB is located in a quiet neighborhood, you will find lots of small bars and restaurants in the direct surroundings.",
+        "capacity": 3,
+        "facilites": {
+            "beds": 1,
+            "bedrooms": 1,
+            "bathrooms": 1
+        },
+        "accessibility": {
+            "stepFreeEntrance": false,
+            "accessibleParkingSpot": false,
+            "wideDoorsEntrances": false,
+            "grabBars": false
+        },
+        "amenities": [
+            "Refrigerator",
+            "Dryer",
+            "Microwave",
+            "Wifi",
+            "Kitchen",
+            "TV",
+            "Free parking",
+            "Hair dryer",
+            "Hangers",
+            "HotTub"
+        ],
+        "host": {
+            "_id": "53249392",
+            "fullname": "Peter Boatista",
+            "imgUrl": "https://randomuser.me/api/portraits/men/51.jpg"
+        },
+        "loc": {
+            "country": "Netherlands",
+            "city": "Amsterdam",
+            "countryCode": "NL",
+            "address": "Amsterdam, North Holland, Netherlands",
+            "lat": 52.365292,
+            "lng": 4.909907
+        },
+        "reviews": [
+            {
+                "id": "r103",
+                "txt": "Amazing! Host is the nicest guy, location is legendary!, LOVED IT!",
+                "rate": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Nayah Hest",
+                    "imgUrl": "https://randomuser.me/api/portraits/women/32.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "10005666",
+        "name": "The Culpeper Bedrooms - En-Suite Bedroom",
+        "type": "Hotel",
+        "typeOfPlace": "Hotel room",
+        "avgRate": 4.89,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/99e00d4d-17cc-48f6-9af5-0939ed95ab33.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/87f83a47-1676-4e9c-991b-818aa438b5b5.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/757cbcff-e969-4aa3-8f72-8db5e89956fe.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/331b7b7e-1b57-4bf9-a72e-786bb62eaef7.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/d5a3c5a4-f39f-40a3-8f6c-f89583d599cb.jpg?im_w=1440"
+        ],
+        "price": 153.0,
+        "summary": "The Culpeper is a 5 bedroom hotel, pub, restaurant and roof garden, situated on Commercial Street. All rooms have their own ensuite bathroom with a shower, have coffee and tea making facilities, and a sweet treat from the kitchen. As well as access to the roof garden (where breakfast is served in the summer months), guests enjoy a 10% discount throughout the rest of the building Please let us know if you would like to book a table for lunch or dinner during your stay.",
+        "capacity": 10,
+        "facilites": {
+            "beds": 5,
+            "bedrooms": 5,
+            "bathrooms": 3
+        },
+        "accessibility": {
+            "stepFreeEntrance": true,
+            "accessibleParkingSpot": true,
+            "wideDoorsEntrances": true,
+            "grabBars": false
+        },
+        "amenities": [
+            "Wifi",
+            "TV",
+            "Hangers",
+            "Kitchen",
+            "Hair dryer",
+            "Free parking",
+            "Wifi",
+            "Refrigerator",
+            "Oven"
+        ],
+        "host": {
+            "_id": "5111392",
+            "fullname": " Culpeper Brit",
+            "imgUrl": "https://randomuser.me/api/portraits/men/69.jpg"
+        },
+        "loc": {
+            "country": "England",
+            "city": "London",
+            "countryCode": "UK",
+            "address": "London, United Kingdom",
+            "lat": 51.516910,
+            "lng": -0.073037
+        },
+        "reviews": [
+            {
+                "id": "r104",
+                "txt": "Hugh suit!, great for big families or groups, breakfast is good, location is ok.",
+                "rate": 4.5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Nayah Hest",
+                    "imgUrl": "https://randomuser.me/api/portraits/women/32.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "1222666",
+        "name": "Come catch a Broadway Show & stay in Times Square",
+        "type": "Hotel",
+        "typeOfPlace": "Hotel room",
+        "avgRate": 4.69,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-49381739/original/ddca4b48-7044-4e29-8978-540dc9415df0.jpeg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/6218ef2e-65fd-4134-8cdf-b31bc154c7ea.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/38490711-1984-471c-a0cb-dc65484ea54d.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/6d175a4d-5ac6-4dc9-877c-c92991ee7238.jpg?im_w=1440",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-49381739/original/c0acb088-8312-47f5-bf99-e23c8149a8b8.jpeg?im_w=1440"
+        ],
+        "price": 117.0,
+        "summary": "Enjoy a comfortable stay in our modern yet charming room designed to meet all your needs. Our Social rooms offer unparalleled comfort, and special touches make all the difference. Relax, get some work done, and take full advantage of your stay.",
+        "capacity": 2,
+        "facilites": {
+            "beds": 1,
+            "bedrooms": 1,
+            "bathrooms": 1
+        },
+        "accessibility": {
+            "stepFreeEntrance": false,
+            "accessibleParkingSpot": false,
+            "wideDoorsEntrances": false,
+            "grabBars": false
+        },
+        "amenities": [
+            "Wifi",
+            "TV",
+            "Kitchen",
+            "Microwave",
+            "Refrigerator",
+            "Free parking",
+            "Hair dryer",
+            "Dryer",
+            "Oven"
+        ],
+        "host": {
+            "_id": "51356392",
+            "fullname": "Michael Woods",
+            "imgUrl": "https://randomuser.me/api/portraits/men/69.jpg"
+        },
+        "loc": {
+            "country": "United States",
+            "city": "New York",
+            "countryCode": "US",
+            "address": "New York, United States",
+            "lat": 40.761054,
+            "lng": -73.986868
+        },
+        "reviews": [
+            {
+                "id": "r105",
+                "txt": "Lication is amazing, Times Square!, right in the center of things, clean - with a well equipped gym.",
+                "rate": 4.5,
+                "by": {
+                    "_id": "u101",
+                    "fullname": "George Kopytov",
+                    "imgUrl": "https://randomuser.me/api/portraits/men/51.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "1222726",
+        "name": "Great Bedroom in Large Studio in Central Barcelona",
+        "type": "Bed and breakfast",
+        "typeOfPlace": "Entire place",
+        "avgRate": 4.93,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/f91c43de-a7a8-4de7-8fb0-44efa8b88d75.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/ca2e711c-aec9-4b74-9967-7bc47c4ef161.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/918e3d71-1528-4c5f-a69e-05dbb3e3064e.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/e5f8dac7-8772-4b55-945e-b02254c11ea2.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/ad10d655-8d51-41ad-aed3-8e8254f417ab.jpg?im_w=720"
+        ],
+        "price": 45.0,
+        "summary": "A very comfortable bedroom with ensuite shower, and free access to a great and well-equipped kitchen and library room. In a very interesting part of town, Gracia, it is five to ten minutes away on foot from such central streets like Passeig de Gracia, Rambla Catalunya, Diagonal; only two metro stops away (ten minute ride) from Plaça Catalunya, heart of the city.",
+        "capacity": 2,
+        "facilites": {
+            "beds": 1,
+            "bedrooms": 1,
+            "bathrooms": 1
+        },
+        "accessibility": {
+            "stepFreeEntrance": false,
+            "accessibleParkingSpot": false,
+            "wideDoorsEntrances": false,
+            "grabBars": false
+        },
+        "amenities": [
+            "Wifi",
+            "Washer",
+            "TV",
+            "Long term stays allowed",
+            "Air conditioning",
+            "Kitchen",
+            "Elevator",
+            "Iron",
+            "Dryer"
+        ],
+        "host": {
+            "_id": "5123392",
+            "fullname": "John Raul",
+            "imgUrl": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        "loc": {
+            "country": "Spain",
+            "city": "Barcelona",
+            "countryCode": "ES",
+            "address": "Barcelona, Catalunya, Spain",
+            "lat": 41.399481,
+            "lng": 2.152079
+        },
+        "reviews": [
+            {
+                "id": "r106",
+                "txt": "Lication is amazing, right in the center of things, clean - big equipped kitchen!, great place to stay!",
+                "rate": 5,
+                "by": {
+                    "_id": "u101",
+                    "fullname": "George Kopytov",
+                    "imgUrl": "https://randomuser.me/api/portraits/men/51.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "1142726",
+        "name": "Cohen Cabin Waterfront Retreat",
+        "type": "Cabin",
+        "typeOfPlace": "Entire place",
+        "avgRate": 4.97,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/ef5a3d3a-8fce-4eab-a0e5-41a7028e7f83.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/f6030b8c-1b13-4533-8ba3-a7ded3e1c87f.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/d74b0809-2075-4f68-8ca8-491e970b0d24.jpg?im_w=720",
+            "https://a0.muscache.com/im/pictures/89a7bea0-00e2-4bb5-9004-fdd6a7fa4ea9.jpg?im_w=1200",
+            "https://a0.muscache.com/im/pictures/751a92f0-bdc9-48a0-84ed-b4bc735164d9.jpg?im_w=720"
+        ],
+        "price": 177.0,
+        "summary": "One bedroom waterfront cabin located on the shores of Tee Harbor in beautiful Juneau Alaska. Wildlife abounds watch playful Harbor Seals, soaring Eagles, and Salmon runs. Water access, great for kayaks and minutes from scenic trail heads. Your home in the last frontier. Included with your stay are use of the 2 double and 3 single kayaks and Mt. Roberts Tram passes. Instant book will not be available off season if you would like to book a stay during the off season please send us a request.",
+        "capacity": 4,
+        "facilites": {
+            "beds": 1,
+            "bedrooms": 1,
+            "bathrooms": 1
+        },
+        "accessibility": {
+            "stepFreeEntrance": false,
+            "accessibleParkingSpot": false,
+            "wideDoorsEntrances": false,
+            "grabBars": false
+        },
+        "amenities": [
+            "Private beach access",
+            "Wifi",
+            "TV with Amazon Prime Video, Fire TV",
+            "Dryer",
+            "Backyard",
+            "Kitchen",
+            "Free parking on premises",
+            "Washer",
+            "Patio or balcony",
+            "Luggage dropoff allowed"
+        ],
+        "host": {
+            "_id": "5123392",
+            "fullname": "Annie Jefferson",
+            "imgUrl": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        "loc": {
+            "country": "United States",
+            "city": "Juneau ,Alaska",
+            "countryCode": "US",
+            "address": "Juneau, Alaska, United States",
+            "lat": 58.434596,
+            "lng": -134.765998
+        },
+        "reviews": [
+            {
+                "id": "r107",
+                "txt": "Experience of a lifetime!, isolated amazing place with great view, host is very nice!",
+                "rate": 5,
+                "by": {
+                    "_id": "u101",
+                    "fullname": "George Kopytov",
+                    "imgUrl": "https://randomuser.me/api/portraits/men/51.jpg"
+                }
+            }
+        ]
+    }
+]

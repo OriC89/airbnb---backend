@@ -2,6 +2,8 @@ const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 // const reviewService = require('../review/review.service')
 const ObjectId = require('mongodb').ObjectId
+const utilService = require('../../services/util.service')
+
 
 module.exports = {
   query,
@@ -46,6 +48,7 @@ async function getByUserEmail(email) {
   try {
     const collection = await dbService.getCollection('userDB')
     const user = await collection.findOne({ email })
+    console.log('user from user service', user);
     return user
   } catch (err) {
     logger.error(`while finding user ${email}`, err)
@@ -80,14 +83,14 @@ async function update(user) {
   }
 }
 
-async function add(user) {
+async function add(email, fullname, phonenumber) {
+  console.log('user in add line 87', phonenumber, email, fullname);
   try {
     const userToAdd = {
-      username: user.username,
-      phonenumber: user.phonenumber,
-      fullname: user.fullname,
-      imgUrl: user.imgUrl,
-      email: user.email,
+      phonenumber,
+      fullname,
+      imgUrl: `https://randomuser.me/api/portraits/${Math.random() > 0.5 ? 'men' : 'women'}/${utilService.getRandomIntInclusive(0, 100)}.jpg`,
+      email,
       savedNotifications: [],
       likedStays: [],
       isHost: false,

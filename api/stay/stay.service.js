@@ -5,7 +5,7 @@ const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
 
 async function query(filterBy = {}) {
-  const criteria = _buildCriteria(filterBy) 
+  const criteria = _buildCriteria(filterBy)
   try {
     const collection = await dbService.getCollection('stayDB')
     var stays = await collection.find(criteria).toArray()
@@ -17,10 +17,13 @@ async function query(filterBy = {}) {
 }
 
 function _buildCriteria(filterBy) {
-  const criteria = {}
+  let criteria = {}
   if (filterBy.loc) {
-    const cityCriteria = { $regex: filterBy.loc, $options: 'i' }
-    criteria.loc = cityCriteria
+    const txtCriteria = { $regex: filterBy.loc, $options: 'i' }
+    criteria = {
+      ...criteria,
+      "loc.address": txtCriteria
+    }
   }
   return criteria
 }

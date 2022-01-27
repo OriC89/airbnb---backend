@@ -1,4 +1,4 @@
-//backend service
+  //backend service
 
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
@@ -50,7 +50,7 @@ async function remove(orderId) {
   }
 }
 
-async function add(order, user) {
+async function add(order) {
   try {
     const collection = await dbService.getCollection('orderDB')
     await collection.insertOne(order)

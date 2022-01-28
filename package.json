@@ -11,7 +11,6 @@
     "author": "Me",
     "license": "ISC",
     "dependencies": {
-        "bcrypt": "^5.0.0",
         "cors": "^2.8.5",
         "express": "^4.17.2",
         "express-session": "^1.16.2",

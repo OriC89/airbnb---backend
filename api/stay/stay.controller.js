@@ -7,7 +7,6 @@ const logger = require('../../services/logger.service')
 async function getStays(req, res) {
   try {
     var queryParams = req.query
-    console.log(queryParams)
     const stays = await stayService.query(queryParams)
     res.json(stays)
   } catch (err) {
@@ -32,7 +31,6 @@ async function getStayById(req, res) {
 async function addStay(req, res) {
   try {
     const stay = req.body
-    console.log('added stay in server', stay)
     const addedStay = await stayService.add(stay)
     res.json(addedStay)
   } catch (err) {

@@ -15,8 +15,6 @@ async function login(req, res) {
 
 async function signup(req, res) {
   try {
-    console.log('account from auth controller', req.body);
-
     const { email, fullname, phonenumber } = req.body
     const account = await authService.signup(
       email,

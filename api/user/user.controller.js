@@ -38,7 +38,6 @@ async function deleteUser(req, res) {
 }
 
 async function updateUser(req, res) {
-  console.log('update user function', req.body)
   try {
     const user = req.body
     const savedUser = await userService.update(user)
@@ -51,7 +50,6 @@ async function updateUser(req, res) {
 
 
 async function addSavedStay(req, res) {
-  console.log('req.body', req.body)
   try {
     const stay = req.body
     const savedStay = await userService.addSavedStay(stay)

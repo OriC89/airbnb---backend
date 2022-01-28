@@ -48,7 +48,6 @@ async function getByUserEmail(email) {
   try {
     const collection = await dbService.getCollection('userDB')
     const user = await collection.findOne({ email })
-    console.log('user from user service', user);
     return user
   } catch (err) {
     logger.error(`while finding user ${email}`, err)
@@ -84,7 +83,6 @@ async function update(user) {
 }
 
 async function add(email, fullname, phonenumber) {
-  console.log('user in add line 87', phonenumber, email, fullname);
   try {
     const userToAdd = {
       phonenumber,

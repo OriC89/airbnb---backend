@@ -25,6 +25,12 @@ function _buildCriteria(filterBy) {
       "loc.address": txtCriteria
     }
   }
+  if (filterBy.hostId) {
+    criteria = {
+      ...criteria,
+      "host._id": { $eq: ObjectId(filterBy.hostId) }
+    }
+  }
   return criteria
 }
 

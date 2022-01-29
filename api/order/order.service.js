@@ -1,4 +1,4 @@
-  //backend service
+//backend service
 
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
@@ -6,8 +6,8 @@ const ObjectId = require('mongodb').ObjectId
 
 async function query(filterBy) {
   try {
-    const criteria = _buildCriteria(filterBy)
     const collection = await dbService.getCollection('orderDB')
+    const criteria = _buildCriteria(filterBy)
     var orders = await collection.find(criteria).toArray()
     console.log('order in backend service', orders)
     return orders
@@ -17,13 +17,8 @@ async function query(filterBy) {
   }
 }
 
-function _buildCriteria({ userId, isHost }) {
-  let criteria = {}
-  if (isHost !== 'false') {
-    criteria = { 'host._id': userId }
-  } else {
-    criteria = { 'user._id': userId }
-  }
+function _buildCriteria({ hostId }) {
+  const criteria = { "host._id": { $eq: ObjectId(hostId) } }
   return criteria
 }
 
@@ -54,7 +49,7 @@ async function add(order) {
   try {
     const collection = await dbService.getCollection('orderDB')
     await collection.insertOne(order)
-      return order
+    return order
   } catch (err) {
     logger.error('cannot insert order', err)
     throw err

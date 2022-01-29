@@ -1,13 +1,12 @@
 const orderService = require('./order.service.js')
 const logger = require('../../services/logger.service')
+const ObjectId = require('mongodb').ObjectId
+
 
 // GET LIST
 async function getOrders(req, res) {
   try {
-    var queryParams = {
-      userId: req.query.userId,
-      isHost: req.query.isHost,
-    }
+    var queryParams = req.query
     const orders = await orderService.query(queryParams)
     res.json(orders)
   } catch (err) {
@@ -32,6 +31,7 @@ async function getOrderById(req, res) {
 async function addOrder(req, res) {
   try {
     const order = req.body
+    order.host._id = ObjectId(order.host._id)
     const addedOrder = await orderService.add(order)
     res.json(addedOrder)
   } catch (err) {

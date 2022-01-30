@@ -58,6 +58,7 @@ async function remove(stayId) {
 
 async function add(stay, user) {
   try {
+    stay.host._id = ObjectId(stay.host._id)
     const collection = await dbService.getCollection('stayDB')
     await collection.insertOne(stay)
     return stay

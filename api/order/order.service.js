@@ -5,6 +5,7 @@ const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
 
 async function query(filterBy) {
+  console.log('fitlerBy from service',filterBy)
   try {
     const collection = await dbService.getCollection('orderDB')
     const criteria = _buildCriteria(filterBy)
@@ -17,11 +18,34 @@ async function query(filterBy) {
   }
 }
 
-function _buildCriteria({ hostId }) {
-  const criteria = { "host._id": { $eq: ObjectId(hostId) } }
+function _buildCriteria(filterBy) {
+  let criteria = {}
+  if (filterBy.hostId) {
+    criteria = { ...criteria, "host._id": { $eq: ObjectId(filterBy.hostId) } }
+  }
+  else if (filterBy.buyerId) {
+    criteria = { ...criteria, "buyer._id": { $eq: ObjectId(filterBy.buyerId) } }
+  }
   return criteria
 }
+// function _buildCriteria(fitlerBy) {
+//   const criteria = {}
+//   if (fitlerBy.hostId) {
+//     criteria = {
+//       ...criteria,
+//       "host._id": { $eq: ObjectId(filterBy.hostId) }
+//     }
+//   }
 
+//   if (fitlerBy.userId) {
+//     criteria = {
+//       ...criteria,
+//       "user_id": { $eq: ObjectId(fitlerBy.userId) }
+//     }
+//   }
+
+//   return criteria
+// }
 
 async function getById(orderId) {
   try {
@@ -47,6 +71,7 @@ async function remove(orderId) {
 
 async function add(order) {
   try {
+    order.buyer._id = ObjectId(order.buyer._id) 
     const collection = await dbService.getCollection('orderDB')
     await collection.insertOne(order)
     return order

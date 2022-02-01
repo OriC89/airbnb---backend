@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a4206b0.css",
-    "main.js": "/static/js/main.dbb3e182.js",
+    "main.css": "/static/css/main.b16988c6.css",
+    "main.js": "/static/js/main.dea65d2e.js",
     "static/media/AirbnbCerealBook.woff": "/static/media/AirbnbCerealBook.d42c6a4d011ab55732b2.woff",
     "static/media/AirbnbCerealMedium.woff": "/static/media/AirbnbCerealMedium.8a9ee95760624b68a412.woff",
     "static/media/AirbnbCerealBold.woff": "/static/media/AirbnbCerealBold.f286ae85c8aca0aeaa50.woff",
@@ -39,11 +39,11 @@
     "static/media/arrow-down.svg": "/static/media/arrow-down.9ad1760fabd307a330774bcfb8c3f332.svg",
     "static/media/menu.svg": "/static/media/menu.aca47f39167fe90b1aed3b71608cc7cd.svg",
     "static/media/flag.svg": "/static/media/flag.4589d8d9cedab698f0e1a2b36f2c3eac.svg",
-    "main.1a4206b0.css.map": "/static/css/main.1a4206b0.css.map",
-    "main.dbb3e182.js.map": "/static/js/main.dbb3e182.js.map"
+    "main.b16988c6.css.map": "/static/css/main.b16988c6.css.map",
+    "main.dea65d2e.js.map": "/static/js/main.dea65d2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a4206b0.css",
-    "static/js/main.dbb3e182.js"
+    "static/css/main.b16988c6.css",
+    "static/js/main.dea65d2e.js"
   ]
 }

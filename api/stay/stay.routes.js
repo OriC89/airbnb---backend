@@ -17,7 +17,7 @@ const router = express.Router()
 router.get('/', getStays) 
 router.get('/:id', getStayById)
 router.post('/', addStay) 
-router.put('/', updateStay)
+router.put('/:id', updateStay)
 router.delete('/:id', removeStay)
 
 module.exports = router

@@ -14,9 +14,9 @@ const {
 const router = express.Router()
 
 
-router.get('/', getStays) 
+router.get('/', getStays)
 router.get('/:id', getStayById)
-router.post('/', addStay) 
+router.post('/', addStay)
 router.put('/:id', updateStay)
 router.delete('/:id', removeStay)
 

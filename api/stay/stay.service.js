@@ -67,6 +67,7 @@ async function add(stay, user) {
     throw err
   }
 }
+
 async function update(stay) {
   try {
     var id = ObjectId(stay._id)

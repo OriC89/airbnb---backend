@@ -1,11 +1,13 @@
 {
     "name": "server",
     "version": "1.0.0",
-    "engines": { "node": "14.x" },
+    "engines": {
+        "node": "14.x"
+    },
     "description": "production ready server",
     "main": "server.js",
     "scripts": {
-        "start": "nodemon server.js",
+        "start": "server.js",
         "server:dev": "set NODE_ENV=development&&nodemon server.js",
         "server:prod": "set NODE_ENV=production&&node server.js"
     },

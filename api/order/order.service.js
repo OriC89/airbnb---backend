@@ -71,7 +71,8 @@ async function remove(orderId) {
 
 async function add(order) {
   try {
-    order.buyer._id = ObjectId(order.buyer._id) 
+    order.buyer._id = ObjectId(order.buyer._id)
+    order.stay._id= ObjectId(order.stay._id) 
     const collection = await dbService.getCollection('orderDB')
     await collection.insertOne(order)
     return order
